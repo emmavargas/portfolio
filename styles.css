@@ -136,9 +136,22 @@ header{
     display: flex;
     gap: 40px;
 }
+
+.container-main-icons a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.container-main-icons a:hover {
+    background-color: #f8fafc;
+}
 .container-main-icons img {
     width: 20px;
     height: 20px;
+
+
 }
 
 
