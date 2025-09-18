@@ -582,4 +582,147 @@ header{
     font-weight: 400;
     color: rgb(145, 142, 142);
 }
-    
+
+/* Mobile Responsive Design */
+@media screen and (max-width: 768px) {
+    .container-header {
+        padding: 0 20px;
+    }
+
+    .container-nav ul {
+        display: none; /* Hide navigation on mobile */
+    }
+
+    .container-main {
+        flex-direction: column-reverse;
+        padding: 120px 20px 40px 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    .container-main-text,
+    .container-main-image {
+        width: 100%;
+    }
+
+    .container-main-text h1 {
+        font-size: 32px;
+    }
+
+    .container-main-text p {
+        font-size: 18px;
+    }
+
+    .container-main-buttons {
+        justify-content: center;
+    }
+
+    .container-main-icons {
+        justify-content: center;
+    }
+
+    .container-main-image img {
+        width: 80%;
+    }
+
+    .container-about {
+        padding: 20px;
+    }
+
+    .container-about-text {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container-about-paragraph,
+    .container-about-info {
+        width: 100%;
+    }
+
+    .container-about h1 {
+        padding: 40px 0px;
+        font-size: 28px;
+    }
+
+    .container-projects {
+        padding: 20px;
+    }
+
+    .container-projects h2 {
+        padding: 40px 0px 0px 0px;
+        font-size: 28px;
+    }
+
+    .container-project-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container-project-features {
+        width: 100%;
+    }
+
+    .container-project-title h3 {
+        font-size: 24px;
+    }
+
+    .container-project p {
+        font-size: 16px;
+    }
+
+    .container-contact {
+        margin: 40px 20px;
+    }
+
+    .container-contact h2 {
+        font-size: 28px;
+    }
+
+    .container-contact-title h3 {
+        font-size: 22px;
+    }
+
+    .container-contact-body {
+        padding: 20px;
+    }
+}
+
+/* Small Mobile Devices */
+@media screen and (max-width: 480px) {
+    .container-main-text h1 {
+        font-size: 28px;
+    }
+
+    .container-main-text p {
+        font-size: 16px;
+    }
+
+    .container-main-buttons {
+        flex-direction: column;
+    }
+
+    .container-main-buttons a {
+        width: 100%;
+    }
+
+    .container-main-image img {
+        width: 90%;
+    }
+
+    .container-about-skills {
+        flex-direction: column;
+    }
+
+    .container-about-skills ul {
+        width: 100%;
+    }
+
+    .container-project-buttons {
+        flex-direction: column;
+    }
+
+    .container-project-buttons a {
+        width: 100%;
+        justify-content: center;
+    }
+}
